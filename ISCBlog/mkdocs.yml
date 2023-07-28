@@ -1,7 +1,7 @@
 site_name: ISC-Blog
-site_url: https://http://www.xdu-inspur.club
+#site_url: https://http://www.xdu-inspur.club
 site_author: ISC-WEB
-site_description: 浪潮人的博客站
+site_description: 浪潮俱乐部的博客站
 
 theme:
   name: material
@@ -39,10 +39,4 @@ theme:
         icon: material/brightness-4
         name: 切换亮色模式
 
-nav:
 
-  - 主页: index.md
-
-  - user-guide:
-
-      - quickstart: "user-guide/quickstart.md"
