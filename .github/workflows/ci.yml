@@ -13,6 +13,7 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs
       - run: pip install mkdocs-material
+      - run: mkdocs build
   # Deploy
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
