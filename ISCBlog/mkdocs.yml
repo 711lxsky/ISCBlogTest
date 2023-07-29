@@ -14,7 +14,7 @@ theme:
     - toc.follow
     - navigation.path
     - navigation.top
-   # - navigation.tabs
+    - navigation.tabs
     - navigation.footer
     - content.code.copy
   icon:
@@ -39,4 +39,8 @@ theme:
         icon: material/brightness-4
         name: 切换亮色模式
 
-
+nav:
+  - 主页: index.md
+  - 技术文档: 技术文档/测试1.md
+  - 西电相关: 西电相关/test.md
+  - 说明指南: user-guide/quickstart.md
