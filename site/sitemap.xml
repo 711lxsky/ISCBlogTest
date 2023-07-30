@@ -1,28 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>http://123.249.41.193/http://123.249.41.193/blog/ISCBlog/site/index.html/</loc>
-         <lastmod>2023-07-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://123.249.41.193/http:/123.249.41.193/blog/ISCBlog/site/index.html/user-guide/quickstart/</loc>
-         <lastmod>2023-07-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://123.249.41.193/http:/123.249.41.193/blog/ISCBlog/site/index.html/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%B5%8B%E8%AF%951/</loc>
-         <lastmod>2023-07-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://123.249.41.193/http:/123.249.41.193/blog/ISCBlog/site/index.html/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%B5%8B%E8%AF%952/</loc>
-         <lastmod>2023-07-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://123.249.41.193/http:/123.249.41.193/blog/ISCBlog/site/index.html/%E8%A5%BF%E7%94%B5%E7%9B%B8%E5%85%B3/test/</loc>
-         <lastmod>2023-07-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
 </urlset>

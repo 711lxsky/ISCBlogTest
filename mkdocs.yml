@@ -1,13 +1,18 @@
 site_name: ISC-Blog
-site_url: http://123.249.41.193/http://123.249.41.193/blog/ISCBlog/site/index.html
+#site_url: http://123.249.41.193
 site_author: ISC-WEB
 site_description: 浪潮俱乐部的博客站
 
 theme:
   name: material
+  logo: images/inspur.png
+  favicon: images/inspur_logo.png
   features:
+    - search.suggest
+    - search.highlight
     - header.autohide
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.tracking
     - content.code.annotate
     - toc.integrate
@@ -15,10 +20,11 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.footer
     - content.code.copy
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/git-alt
   palette: 
 
     # Palette toggle for light mode
@@ -27,15 +33,30 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: 切换暗色模式
-      primary: teal #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
-      accent: cyan # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+      primary: blue grey #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
+      accent: light blue # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
-      accent: cyan # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+      accent: light blue # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
       toggle:
         icon: material/brightness-4
         name: 切换亮色模式
+
+repo_name: 本站GitHub仓库
+repo_url: https://github.com/711lxsky/ISCBlogTest.git
+
+copyright: Copyright &copy XDU-ISC-WEB
+
+extra:
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
+  social:
+    - icon: fontawesome/solid/house-chimney
+      name: 西电浪潮俱乐部官网
+      link: http://123.249.41.193/index.html
+    - icon: fontawesome/brands/GitHub
+      name: XDU-ISC
+      link: https://github.com/ISC-XDU
 
