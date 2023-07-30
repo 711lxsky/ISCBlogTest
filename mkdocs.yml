@@ -56,7 +56,7 @@ extra:
     - icon: fontawesome/solid/house-chimney
       name: 西电浪潮俱乐部官网
       link: http://123.249.41.193/index.html
-    - icon: fontawesome/brands/GitHub
+    - icon: fontawesome/brands/github
       name: XDU-ISC
       link: https://github.com/ISC-XDU
 
